@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    #about {
+  padding: 60px 20px;
+  background: #0f172a;
+  color: #fff;
+}
+
+.container {
+  max-width: 1100px;
+  margin: auto;
+}
+
+.section-title {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.about-text {
+  text-align: center;
+  max-width: 700px;
+  margin: 0 auto 40px;
+  opacity: 0.8;
+}
+
+.about-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  background: #1e293b;
+  padding: 20px;
+  border-radius: 15px;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  background: #334155;
+}
+
+.card h3 {
+  margin-bottom: 10px;
+}
+
+.card ul {
+  padding-left: 20px;
+}
+
+.offer {
+  margin-top: 40px;
+  text-align: center;
+}
+
+.offer h3 {
+  margin-bottom: 10px;
+}
+  </style>
+</head>
+<body>
+  <section id="about">
+  <div class="container">
+    <h2 class="section-title">Sobre Nós</h2>
+
+    <p class="about-text">
+      O Colégio Bankazi é uma instituição de ensino localizada na província de Benguela, Angola, dedicada à formação académica e ao desenvolvimento integral dos seus estudantes.
+    </p>
+
+    <div class="about-grid">
+
+      <div class="card">
+        <h3>Missão</h3>
+        <p>Proporcionar uma educação de qualidade, formando cidadãos responsáveis e preparados para o futuro.</p>
+      </div>
+
+      <div class="card">
+        <h3>Visão</h3>
+        <p>Ser uma referência no ensino em Angola, destacando-se pela excelência e inovação.</p>
+      </div>
+
+      <div class="card">
+        <h3>Valores</h3>
+        <ul>
+          <li>Ética</li>
+          <li>Responsabilidade</li>
+          <li>Disciplina</li>
+          <li>Inovação</li>
+        </ul>
+      </div>
+
+    </div>
+
+    <div class="offer">
+      <h3>O que oferecemos</h3>
+      <p>
+        Ensino académico e técnico orientado para preparar os alunos para o ensino superior e o mercado de trabalho.
+      </p>
+    </div>
+
+  </div>
+</section>
+</body>
+</html>
